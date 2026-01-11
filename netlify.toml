@@ -1,0 +1,7 @@
+[build]
+  base = "react-artworks"
+  command = "npm run build"
+  publish = "react-artworks/dist"
+
+[build.environment]
+  NODE_VERSION = "22.12.0"
